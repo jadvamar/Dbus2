@@ -50,7 +50,7 @@ ApplicationWindow {
             target: dbusInterface
             function onMessageReceivedFromApp1(message) {
                 messageArea.text += "\nApp2: " + message
-                window1.color = message
+                // window1.color = message
             }
         }
     }

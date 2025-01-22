@@ -13,7 +13,6 @@ class DbusInterface : public QObject
 
 public:
     explicit DbusInterface(QObject *parent = nullptr);
-
     Q_INVOKABLE void sendMessageToApp1(const QString &message);
 
 signals:
@@ -23,4 +22,4 @@ public slots:
     void receiveMessageFromApp1(const QString &message);
 };
 
-#endif // DBUSINTERFACE_H
+#endif //DBUSINTERFACE_H
